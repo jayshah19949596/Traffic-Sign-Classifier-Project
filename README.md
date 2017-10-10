@@ -183,7 +183,7 @@ Below are images after pre-processing which will give a better idea of pre-proce
 ## CRITERIA 3 : Model Training
 
 - I have trained the model for 10 epochs
-- I tried training for 30 epochs but it seems the method I have used for pre-processing and model used there is not much changes in the validation accuracy for the model
+- I tried training for 30 epochs but it seems the method I have used for pre-processing and model used there is not much changes in the validation accuracy when number of epochs is 10 or 30
 - I have used bacth size of 128. I have choosen this because tensorflow gives optimized results when batch size is a power of 2
 - learning rate used is 0.001. I think this is ideal leanring rate to start with or may be 0.01
 - Used AdamOptimizer to optimize cost function.
@@ -200,9 +200,9 @@ Iterative approach was chosen to achieve the solution :
 * First I just played around with LeNet
 * LeNet gave an accuracy of 89
 * I then normalized my data and converted them to greyscale and saw that model still gives an accuracy of 89 for 10 epochs
-* I increased the number of eopchs to 30 and I achieved an accuracy of 91.5
-* I again ran the model without any changes and I acheved an accuracy of 92.9
-* So then I decided to add dropour without making any other changes in my solution
+* I increased the number of epochs to 30 and I achieved an accuracy of 91.5
+* I again ran the model without any changes and I achieved an accuracy of 92.9
+* So then I decided to add dropouts without making any other changes in my solution
 * Even adding dopouts did not help me reach an accuracy of 93
 * I decided to change my solution
 * All my above solution was before applying data visualization
@@ -266,7 +266,7 @@ Iterative approach was chosen to achieve the solution :
 | Speed Limit(50 km/hr)		   | Speed Limit(50 km/hr)   		     			| 
 | Dangerous curve to the left  | Dangerous curve to the left     				| 
 | Stop     			           | Stop    										|
-| 8eep right			       | Speed Limit(80 km/hr)							|
+| keep right			       | Speed Limit(80 km/hr)							|
 | Road Work     		       | Road Work   				 	     			|
 | Roundabout Mandatory	       | Slippery Road      							|
 | Speed Limit(70 km/hr)        | Speed Limit(70 km/hr)      					| 
