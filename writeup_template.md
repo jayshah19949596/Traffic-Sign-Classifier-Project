@@ -251,7 +251,7 @@ Iterative approach was chosen to achieve the solution :
 - Which means out of 8 my model classified 5 images correctly
 - I was happy with my model's performance
 - I wish I could have greyscaled the images and tried checking out the performance but I am constrainted with time and my machine is not working properly
-- as Expected in Misclassified the last two images in the above custom images shown
+- As Expected the model Misclassified the last two images in the above custom images shown
 - Below are the Prediction Result of my model
 
 
