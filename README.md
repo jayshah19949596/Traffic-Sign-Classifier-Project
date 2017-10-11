@@ -296,7 +296,7 @@ Iterative approach was chosen to achieve the solution :
 - It is possible that there is a chance of bias training as many classes has lot's of training data while many classes have less training data
 - Because of less data for few classes the model will give prediction of the data for the class it has seen the most
 - This is what I thought of and decided that there has to be data augmentation needed
-- The results for augmented data i.e. on instance for ech class can is displayed below:
+- The results for augmented data i.e. on instance for each class is displayed below:
 
 [image27]: ./data_augmentation/data_augmentation_1.PNG
 [image28]: ./data_augmentation/data_augmentation_2.PNG
