@@ -150,7 +150,7 @@ Below are images after pre-processing which will give a better idea of pre-proce
 
 ![Pre Processing](https://github.com/jayshah19949596/Traffic-Sign-Classifier-Project/blob/master/pre_processing/pre_processing_1.PNG)
 ![Pre Processing](https://github.com/jayshah19949596/Traffic-Sign-Classifier-Project/blob/master/pre_processing/pre_processing_2.PNG)
-![Pre Processing](https://github.com/jayshah19949596/Traffic-Sign-Classifier-Project/blob/master/pre_processing/pre_processing_2.PNG)
+![Pre Processing](https://github.com/jayshah19949596/Traffic-Sign-Classifier-Project/blob/master/pre_processing/pre_processing_3.PNG)
 
 ## CRITERIA 2 : Model Architecture
 
