@@ -21,10 +21,6 @@
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
-
-## Rubric Points
-** Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation. **
-
 ---
 
 # Dataset Exploration
@@ -215,10 +211,7 @@ Iterative approach was chosen to achieve the solution :
 * I choose inception architecture because it is better than LeNet as it gives bettwer results than LeNet
 
 ## CRITERIA 1 : Acquiring New Images
-
-
-- The custom test images were given to me by my Mentor
-- I think they are taken from the web... I am not sure...!!! 
+ 
 - There are 8 custom images
 - The first 3 images should be correctly calssified by the model because the image quality is good and they are very straight forward as there are no other class images that has similarity to the first 3 images... This is what I think
 - The next 3 images have a lot's of similarity with data from other classes... Model should have a very low confidence on classifying these images ... by low confidence I mean that the probability of the softmax of the class predicted will be less even thought it's the maximum for that prediction but compared to other image prediction the softmax should be less
